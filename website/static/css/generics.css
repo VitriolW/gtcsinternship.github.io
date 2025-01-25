@@ -1,0 +1,42 @@
+body{
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: rgb(255, 255, 255);
+    font-weight: 350;
+    color:rgb(0, 0, 0);
+    text-align: left;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* For mobile phones: */
+body{
+    font-size: 14px; 
+}
+img{
+    width:45%;
+    border-bottom: 30px solid rgb(31, 31, 31);
+}
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+}
+@media only screen and (min-width: 870px) {
+    /* For tablets: */
+
+}
+@media only screen and (min-width: 992px) { /* 768 */
+    /* For desktop: */
+
+}
+@media only screen and (min-width: 1500px) {
+    /* For desktop: */
+    body{
+        font-size: 18px; 
+    }
+}

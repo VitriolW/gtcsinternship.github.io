@@ -1,0 +1,20 @@
+.scrollable-list {
+    height: 450px; /* Adjust the height as needed */
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.list-item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.list-item:nth-child(odd) {
+    background-color: white;
+}
+
+.list-item:nth-child(even) {
+    background-color: lightgray;
+}
+

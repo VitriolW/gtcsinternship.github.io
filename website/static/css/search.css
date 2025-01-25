@@ -1,0 +1,26 @@
+.search {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+h1{
+    display: inline-block;
+    vertical-align: bottom;
+    justify-self: flex-start;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+form {
+    display: inline-block;
+    vertical-align: bottom;
+    justify-self: flex-end;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 50%;
+}
+
+.input-field {
+    width: 70%;
+}
